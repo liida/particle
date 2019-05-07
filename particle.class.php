@@ -36,6 +36,8 @@ abstract class Particle {
             $machineid = str_pad(decbin(self::$machineId), 10, "0", STR_PAD_LEFT);
         }
 
+
+
         /*
         * sequence number - 12 bits - up to 4096 random numbers per machine
         */
